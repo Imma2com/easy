@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding:0 6% ;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+
+}
+nav ul li{
+    list-style: none;
+    margin:0 10px;
+}
+li a{
+    text-decoration: none ;
+    color: black;
+}
+li a:hover{
+  text-decoration: underline;
+  
+  border-radius: 120px;
+}
+nav .lh{
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    margin-left: auto;
+  color: #1d1d24;
+  position: relative;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "inter",sans-serif;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 40px;
+  display: inline-block;
+  color: #1d1d24;
+  position: relative;
+    
+}
+
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #1d191a;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+.image{
+ background: url("kili.jpg") no-repeat;
+ height: 91vh;
+ align-items: center;
+ background-position: center;
+ background-size: cover;
+ color:rgb(36, 3, 3);
+  font-size: larger;
+  font-weight: bold;
+  font-family: "inter",sans-serif;
+}
+.content{
+    
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    margin-left: 12rem;
+}
+.content h2{
+    
+    align-items: center;
+    justify-content: center;
+   
+    margin-left: 12rem;
+    
+}
+.content h3{
+    
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 20px;
+    margin-left: 17rem; 
+}
+.content p{
+    
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 20px;
+    margin-left: 22rem; 
+}
+
+.image .butt {
+
+ margin-left: 20rem;
+ padding-top: 50px;
+}
+.image button{
+    width: 300px;
+    height:50px ;
+    color: rgb(40, 17, 156);
+    border-radius: 20px;
+    
+}
+.image button:nth-child(2):hover{
+    color:wheat;
+    border: 2px solid burlywood;
+    background-color: cadetblue;
+}
+.image button:nth-child(1):hover{
+    color:wheat;
+    border: 2px solid burlywood;
+    background-color: cadetblue;
+}
+.profile{
+    
+    padding-top: 2px;
+    line-height: 50px;
+     padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.501);
+    color:#f1f7fa;
+      padding-bottom: 20px;
+}
+.inf{
+    background-color: rgba(0, 0, 0, 0.501);
+    padding-top: 2px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #f1f7fa;
+}
+.education{
+     padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    color:#f1f7fa;
+     background-color: rgba(0, 0, 0, 0.501);
+    
+}
+.aboutme svg{
+    color: rgb(251, 164, 51);
+}
+
+.aboutme{
+    background-color:rgb(11, 148, 148);
+    display: flex;
+    color:white;
+  font-size:medium;
+  padding-top: 40px;
+  font-family: "inter",sans-serif;
+  padding-left: 10px;
+  column-gap: 40px;
+  padding-bottom: 70px;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+
+
+
+
+}
+.navi{
+    background-color:rgb(11, 148, 148);
+    padding-left: 30rem;
+    padding-top: 30px;
+      color:rgb(10, 1, 1);
+  font-size: larger;
+  font-weight: bold;
+  font-family: "inter",sans-serif;
+  justify-content: center;
+  align-items: center;
+
+}
+.Service{
+    display: flex;
+    background-color: rgb(45, 88, 88);
+    color:wheat;
+  font-size: small;
+  font-weight: bold;
+  font-family: "inter",sans-serif;
+  padding-left: 70px;
+  padding-left: 70px;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  
+}
+
+.Service p{
+    row-gap: 40px;
+   
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.Service img{
+height:400px;
+width: 350px;
+border-radius: 20px;
+}
+
+ .head{
+    background-color:rgb(31, 114, 114) ;
+    padding-left: 27rem;
+    padding-top: 20px;
+}
+
+
+.project{
+   display: flex;
+    background-color: rgb(14, 151, 151);
+    color:wheat;
+  font-size: small;
+  font-weight: bold;
+  font-family: "inter",sans-serif;
+  padding-left: 18px;
+  padding-bottom: 100px;
+  padding-top: 20px; 
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.project p{
+    row-gap: 40px;
+   
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.project img{
+
+height:400px;
+width: 350px;
+border-radius: 20px;
+}
+
+ .topi{
+    background-color:rgb(14, 151, 151) ;
+    padding-left: 27rem;
+    padding-top: 20px;
+}
+
+
+
+.project button{
+    width: 300px;
+    height:50px ;
+    color: antiquewhite; 
+    border-radius: 20px; 
+    
+}
+.project button a{
+    text-decoration: none;
+    color: blue;
+    list-style: none;
+    
+
+}
+.project button:hover{
+    color:wheat;
+    border: 2px solid burlywood;
+    background-color: cadetblue;
+}
+
+.project h3{
+    color: rgb(249, 185, 139);
+}
+.Service h3{
+    color: rgb(249, 139, 148);
+}
+
+.down{
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 4rem;
+   background-color:rgb(13, 89, 89) ;
+   padding-top: 3px;
+   padding-bottom: 120px;
+}
+
+
+ .topo{
+    background-color:rgb(13, 89, 89);
+    padding-left: 27rem;
+    padding-top: 20px;
+    color: goldenrod;
+    background-color: #1d191a;
+     font-weight: bold;
+    font-size: larger;
+ }
+ 
+ .top{
+    background-color:rgb(13, 89, 89);
+    padding-left: 27rem;
+    padding-top: 20px;
+   
+   
+ }
+ .down1{
+    color: aliceblue;
+    line-height: 2rem;
+    font-size: small;
+ }
+ .cont{
+     color:wheat;
+  font-size: small;
+  font-weight: bold;
+  font-family: "inter",sans-serif;
+  padding-top: 1rem;
+ }
+
+.Contact{
+    
+    
+     display: flex;
+     background-color:rgb(13, 89, 89) ;
+     
+     justify-content: center;
+     align-items: center;
+     padding-left: 20px;
+     column-gap: 50px;
+
+     
+ }
+ .Contact svg{
+    
+    width: 40px;
+    height: 40px;
+    
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    
+
+
+
+    
+ }
+ .Contact svg:hover{
+color:rgb(1, 28, 28);
+    border: 2px solid rgb(4, 79, 79);
+    background-color: rgb(6, 132, 132);
+
+ }
+
+.box input{
+    border-radius: 6px;
+    text-decoration: none;
+    width: 17rem;
+    height: 40px;
+}
+
+.box textarea{
+    border-radius: 6px;
+    text-decoration: none;
+    
+}
+.box .btn{
+    width: 34.4rem;
+    height: 2rem;
+    border-radius: 8px;
+    background-color:#00abf0 ;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+.box .btn:hover{
+    color:wheat;
+
+    background-color: rgb(10, 149, 119);
+}
+
+

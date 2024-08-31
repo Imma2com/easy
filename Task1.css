@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: aqua;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding:0 6% ;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+
+}
+nav ul li{
+    list-style: none;
+    margin:0 10px;
+}
+li a{
+    text-decoration: none ;
+    color: black;
+}
+li a:hover{
+  text-decoration: underline;
+  background-color: white;
+  border-radius: 120px;
+}
+   .intro{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 0 6%;
+    padding-top: 40px;
+    
+
+   }
+
+   .right{
+    margin-right: 100px;
+    height: auto;
+    padding-bottom: 20px;
+   }
+
+   
+   .right p{
+    margin-right: 100px;
+    height: auto;
+    padding-bottom: 20px;
+    line-height: 35px;
+   }
+   svg{
+    color: forestgreen;
+
+   }
+
+   button{
+    background-color: rgb(7, 184, 184);
+    border-radius: 12px;
+    margin-top: 20px;
+    height: 30px;
+
+   }
+
+   .title{
+    display: flex;
+    padding: 0 6%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    
+   }
+   .logo{
+    display: flex;
+    background-color: green;
+    margin-top: 20px;
+    
+    margin: 0 6%;
+   }
+   .content{
+    padding-left: 20px;
+   }
+   
+    
+   
+  .logo p{
+    color: white;
+    line-height: 40px;
+   }
+   .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+.bottom2{
+    display: flex;
+    margin: 20px;
+
+}
+.bottom1{
+margin: 45px;
+background-color: azure;
+
+}
+.kati{
+    padding-left: 4.5rem;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    
+}
+span{
+    margin-top: 67px;
+}
+

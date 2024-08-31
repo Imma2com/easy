@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: whitesmoke;
+}
+nav{
+    background: #268A1D;
+    display: flex;
+    height: 60px;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav .logo{
+    display: flex;
+    color: aliceblue;
+}
+nav ul {
+    display: flex;
+    margin-left: auto;
+  color:white;
+  position: relative;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "inter",sans-serif;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 40px;
+  display: inline-block;
+  color:wh;
+  position: relative;
+  cursor: pointer;
+    
+}
+
+nav ul li:hover {
+  color: white;
+}
+nav ul li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #1d191a;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li:hover:after {
+  width: 100%;
+}
+.container{
+  display: grid;
+  grid-template-columns: 250px 1fr 350px;
+  row-gap: 0.5rem;
+  column-gap: 1.2rem;
+  margin-bottom: 2px;
+  position: inherit;
+  
+}
+
+.kat{
+  display: grid;
+  grid-template-columns: 400px 1fr ;
+  row-gap: 200px;
+  background-color: whitesmoke;
+  
+}
+.left img{
+  background-color: blue;
+  width: 100%;
+  
+}
+.bottom{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+.pro{
+  display: flex;
+ grid-column: 1/-1;
+ margin-bottom: 100px;
+
+
+}
+ .container{
+  margin-right: 2px;
+  padding-top: 50px; 
+ } 
+.pro svg{
+  margin: 0 20px;
+}
+
+.pro img{
+  margin-right: 20px;
+}
+
+.rigth h5{
+  margin-top: auto;
+  height: 30px;
+  width: 100%;
+  border-top: 2px solid white;
+  padding-top: 10px;
+  color: aliceblue;
+
+}
+.rigth {
+  background-color: #268A1D;
+  width: 100%;
+
+}
+.image{
+
+ grid-column: 1/-1;
+ 
+ 
+}
+.image svg{
+  margin: 0 20px;
+}
+
+
+.min{
+  display: flex;
+  grid-template-columns: 250px 1fr 300px;
+}
+.small{
+  display: flex;
+  margin-bottom: 2px;
+  background-color: antiquewhite;
+}
+.small img{
+  width: 80px;
+  height: 80px;
+}
+.container3{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+
+  
+}
+
+.container1{
+  
+
+  background:white;
+}
+
+
+.foot{
+  display: flex;
+  column-gap: 200px;
+  margin-top: 20px;
+  background-color: #268A1D;
+  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-left: 20px;
+   
+}
+.foot h3 {
+  color: aliceblue;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  row-gap: 23px;
+}
+.foot p{
+  color:white;
+  
+}
+.foot .btn{
+color: aliceblue;
+width: 100%;
+height: 40px;
+background-color: #115e0a;
+cursor: pointer;
+}
+.foot textarea{
+  margin-top: 10px;
+}
+.foot1 input{
+  height: 30px;
+}

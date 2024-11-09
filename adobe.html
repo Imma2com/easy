@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-family: "note sans", sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: rgb(72, 6, 72);
+        color: #ededed;
+      }
+
+      .home {
+        height: 130vh;
+        background: url("jk.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0 10%;
+        display: flex;
+        align-items: center;
+      }
+      .home-content {
+        margin-top: 5%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .home-content h1 {
+        position: relative;
+        font-size: 63px;
+        font-weight: 700;
+        line-height: 1.2;
+        color: aqua;
+      }
+
+      .home-content h3 {
+        font-size: 33px;
+        font-weight: 700;
+        color: rgba(182, 165, 156, 0.903);
+      }
+
+      .home-content h6 {
+        font-size: 13px;
+        font-weight: 800;
+        color: rgba(182, 165, 156, 0.903);
+        padding: 1rem;
+      }
+
+      .p2 h5 {
+        font-size: 13px;
+        font-weight: 800;
+        color: rgba(15, 3, 37, 0.903);
+        padding: 1rem;
+      }
+
+      .jerry {
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        padding: 5rem;
+        color: #00abf0;
+        margin-left: 70%;
+      }
+
+      .cute-tomy {
+        border-radius: 63rem;
+        margin-top: 33%;
+      }
+
+      input {
+        background: rgb(4, 17, 28);
+        display: flex;
+        flex-direction: column;
+        outline: none;
+        padding: 20px;
+        border-radius: 1rem;
+        color: white;
+      }
+      button {
+        display: flex;
+        flex-direction: column;
+        outline: none;
+        padding: 20px;
+        border-radius: 1rem;
+        margin-left: 115px;
+      }
+
+      .home-content .btn-box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 345px;
+        height: 50px;
+      }
+
+      .btn-box a {
+        margin-bottom: 93px;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 100%;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 19px;
+        text-decoration: none;
+        color: #081b29;
+        font-weight: 600;
+        letter-spacing: 1px;
+        z-index: 1;
+        overflow: hidden;
+        transition: 0.5s;
+      }
+
+      .btn-box a:nth-child(2):hover {
+        color: #081b29;
+      }
+
+      .btn-box a:nth-child(2)::before {
+        background: #00abf0;
+      }
+
+      .btn-box a:nth-child(2) {
+        background: transparent;
+        color: aqua;
+      }
+
+      .btn-box a::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #081b29;
+        z-index: -1;
+        overflow: hidden;
+        transition: 0.5s;
+      }
+
+      .btn-box a:nth-child(2):hover {
+        color: #081b29;
+      }
+
+      .btn-box a:hover:before {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="home">
+      <div class="home-content">
+        <h1>SERVICE I PROVIDE</h1>
+        <h3>WELCOME Dear Costomer.... we offers some services such as</h3>
+        <div class="jerry">
+          <div class="p1">
+            <h6>GRAPHICS DESIGN</h6>
+            <p>
+              WELCOME Dear Costomer.... we offers some services such as i.
+              graphic designing 2. card designing 3. logo designing 4. t-shirt
+              printing, "TRUSTFULL IS OUR SUBJECT TO SUCCESS"
+            </p>
+          </div>
+          <div class="p2">
+            <h5>ONLINE SERVICES</h5>
+            <p>
+              HESLB application(loanapplication) 2. Certificate verification and
+              new certificate application (old to new certificate) 3. university
+              online application.
+            </p>
+          </div>
+          <div class="p3">
+            <h6>website DESIGN</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Consequuntur, assumenda. Repellat ipsa, tenetur voluptate minima
+              repudiandae officiis eveniet ad sint, delectus sed debitis odio
+              nostrum, velit unde corporis dolore quod.
+            </p>
+          </div>
+          <div image>
+            <img
+              class="cute-tomy"
+              src="cute.jpg"
+              width="300px"
+              height="285px"
+              alt=""
+            />
+          </div>
+          <div class="contact">
+            <h4>contact us</h4>
+            <input type="email" placeholder="your email" required />
+            <input type="password" placeholder="password" required />
+            <input type="text" placeholder="your message" required />
+            <div>
+              <button class="mpya.html">
+                <a href="https://ww.facebook.com">link</a>send
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="btn-box">
+          <a href="adobe.html">here me</a>
+          <a href="adobe.html">let's talk</a>
+        </div>
+      </div>
+
+      <span class="jk-imgHover"></span>
+    </section>
+  </body>
+</html>
